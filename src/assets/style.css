@@ -38,4 +38,11 @@ button{
 }
 .todo-item{
     color: white;
+    animation: test 0.3s ease-in-out;
 }
+@keyframes test {
+    0% {transform: scale(0%);}
+
+    100% {transform: scale(100%);}
+}
+
